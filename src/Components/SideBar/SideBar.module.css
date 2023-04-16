@@ -1,0 +1,89 @@
+.SideBar {
+    grid-area: s;
+    width: 300px;
+    background-color: #202020;
+    color: white;
+    height: 100%;
+    padding-bottom: 30px;
+    border-radius: 5px;
+}
+
+.bgWrapper {
+    height: 180px;
+}
+
+.avaWrapper {
+    height: 100px;
+    margin-bottom: 40px;
+}
+
+.profile {
+    width: 185px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0;
+}
+
+.about {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #DEDEDE;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.socialNet {
+    margin: 0 auto;
+    width: 105px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.line {
+    margin: 0 auto;
+    height: 2px;
+    width: 260px;
+    background-color: #1C1C1C;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.info {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.btnWrapper {
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.btnWrapper button {
+    color: white;
+    border-radius: 25px;
+    border:  none;
+    width: 120px;
+    height: 40px;
+}
+
+.redBtn{
+    cursor: pointer;
+    background-color: red;
+}
+
+.blueBtn{
+    cursor: pointer;
+    background-color: blue;
+}

@@ -1,0 +1,41 @@
+.StoryModalWrapper{
+    padding-top: 80px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: rgba(45, 49, 51, 0.7);
+}
+
+.StoryModal{
+    width: 430px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.storyBody{
+    height: 100%;
+}
+
+.storyVideo{
+    height: 100%;
+    width: 100%;
+}
+
+.storyClose{
+    width: 25px;
+    cursor: pointer;
+    bottom: 550px;
+    left: 350px;
+    position: relative;
+}
+
+.storyPlay{
+    cursor: pointer;
+    width: 25px;
+    position: relative;
+    bottom: 85px;
+    left: 55px;
+}

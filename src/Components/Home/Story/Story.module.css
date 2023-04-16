@@ -1,0 +1,34 @@
+.storyWrapper {
+    color: #FFF;
+    width: 140px;
+    height: 195px;
+    position: relative; 
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+
+
+.title {
+    width: 110px;
+    top: 15px;
+    position: absolute;
+    z-index: 1;
+    left: 15px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.date {
+    right: 15px;
+    bottom: 15px;
+    position: absolute;
+    z-index: 1;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
