@@ -1,0 +1,13 @@
+.worksWrapper {
+    width: 600px;
+    margin: 0 auto;
+
+}
+
+.title {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}

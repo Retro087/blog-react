@@ -7,6 +7,7 @@ import vk from "../../Assets/img/social-networks/vk.svg"
 import pinterest from "../../Assets/img/social-networks/pinterest.svg"
 import useModal from "../hook/useModal";
 import ContactModal from "../Modals/ContactModal/ContactModal";
+import { NavLink } from "react-router-dom";
 
 let SideBar = (props) => {
     const [isShowingModal, toggleModal] = useModal()
@@ -38,7 +39,7 @@ let SideBar = (props) => {
             </div>
             <div className={s.line}></div>
             <div className={s.btnWrapper}>
-                <button className={s.redBtn}>Мои работы</button>
+                <NavLink to='/MyWorks'><button className={s.redBtn}>Мои работы</button></NavLink>
                 <button onClick={toggleModal} className={s.blueBtn}>Написать мне</button>
             </div>
         </div>

@@ -59,7 +59,7 @@
     background-color: blue;
     width: 165px;
     left: 0;
-    height: 85px;
+    
 }
 
 .menuDeactive{
@@ -76,6 +76,7 @@
     font-size: 12px;
     line-height: 14px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .menuItem{

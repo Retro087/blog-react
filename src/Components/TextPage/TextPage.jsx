@@ -1,12 +1,16 @@
 import React from "react";
 import s from "./TextPage.module.css"
-import { NavLink } from "react-router-dom";
+import { NavLink, Navigate } from "react-router-dom";
 import useModal from "../hook/useModal";
 import ShareModal from "../Modals/ShareModal/ShareModal";
 
 let TextPage = (props) => {
     let page = props.posts.find(item => item.id === Number(props.router.params.pageId))
     const [isShowingModal, toggleModal] = useModal()
+
+    if(!page){
+        return <Navigate to={'/home'}/>
+    }
 
     return (
         <div className={s.textPageWrapper}>

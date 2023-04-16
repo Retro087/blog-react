@@ -1,6 +1,3 @@
-.textPageWrapper {
-    padding: 60px 0 80px;
-}
 
 .textPage {
     box-sizing: border-box;
@@ -41,6 +38,7 @@
     font-size: 14px;
     line-height: 21px;
     color: #FFFFFF;
+    word-break: break-all;
 }
 
 .mainText{

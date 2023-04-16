@@ -9,6 +9,13 @@
 
 .postImg {
     width: 100%;
+    height: 100%;
+}
+
+.imgWrap{
+    margin: 0 auto;
+    width: 550px;
+    height: 250px;
     margin-bottom: 25px;
 }
 
@@ -23,6 +30,8 @@
 }
 
 .postText {
+    max-height: 90px;
+    overflow: hidden;
     margin: 0 auto;
     width: 550px;
     font-weight: 400;

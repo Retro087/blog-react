@@ -1,10 +1,9 @@
-.homePage{
+.homePage {
     width: 600px;
     margin: 0 auto;
-    padding-top: 60px;
 }
 
-.stories{
+.stories {
     display: flex;
     justify-content: space-between;
 }

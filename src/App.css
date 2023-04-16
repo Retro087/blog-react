@@ -14,4 +14,5 @@
 
 .App_content{
     grid-area: b;
+    padding: 60px 0;
 }

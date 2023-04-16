@@ -1,0 +1,65 @@
+.postWrapper {
+    width: 600px;
+    margin: 0 auto;
+
+}
+
+.title {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.createPost {
+    min-height: 450px;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 25px;
+    background: #202020;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.35);
+    border-radius: 5px;
+}
+
+.input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #202020;
+    border: none;
+    border-bottom: 1px solid #3F3F3F;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFF;
+
+}
+
+.textarea {
+    height: 550px;
+    width: 100%;
+    padding: 10px 5px;
+    background-color: #202020;
+    border: 1px solid #3F3F3F;
+    margin-bottom: 30px;
+    resize: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFF;
+    box-sizing: border-box;
+}
+
+.createBtn {
+    background: #3137C9;
+    box-shadow: 0px 4px 15px -7px rgba(48, 55, 201, 0.3);
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+}
